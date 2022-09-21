@@ -8,7 +8,6 @@ const Navigation = () => {
 
   return (
     <nav className={classes.nav}>
-      {console.log(ctx.isLoggedIn, 'isLoggedIn')}
       <ul>
         {ctx.isLoggedIn && (
           <li>
